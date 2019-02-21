@@ -13,7 +13,7 @@ to compile c code:
 where 'server' represents executable
 
 What it looks like:
-![alt text][images/c_output.png]
+![c output](https://github.com/schen22/socketsTutorial/blob/master/images/c_output.png "c output")
 
 Learnings:
 - Used curl to test server without having implemented client-side
@@ -23,5 +23,5 @@ Learnings:
 - When sending a message to my client, the message was at first not sent until I quit running server
   - Realized the message was getting stuck in some sort of buffer
   - Required needing to add a terminating character to hello world in form of `\n` __magic__
-- Through testing server with curl found post request: ![alt text][images/c_server.png]
+- Through testing server with curl found post request: ![c server test](https://github.com/schen22/socketsTutorial/blob/master/images/c_server.png "c server test")
   - could also open up webpage to point to port with localhost:2222 and display different header
